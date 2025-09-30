@@ -1,0 +1,16 @@
+{
+  "name": "check-schedules",
+  "version": "0.0.1",
+  "description": "",
+  "author": "loveAlakazam",
+  "private": true,
+  "license": "UNLICENSED",
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "server": "cd server && yarn install && yarn build && yarn start",
+    "client": "cd client && yarn install && yarn build && yarn dev"
+  }
+}
