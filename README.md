@@ -193,10 +193,15 @@ handleSolution02(schedules: Schedule[]) {
 
 반대로 2개의 조건중 어느 하나라도 만족을 하지 않는다면 두 스케줄 i,j 사이의 겹치는 스케줄시간이 존재하지 않습니다.
 
-- (조건1)을 만족하지 않은 경우: `start_i` >= `end_j`  
-  ![no-overlap01](./docs/no-overlap01.png)
+- (조건1)을 만족하지 않은 경우: `start_i` >= `end_j`
+
+![no-overlap01](./docs/no-overlap01.png)
+
+<br>
+
 - (조건2)를 만족하지 않은 경우: `start_j` >= `end_i`
-  ![no-overlap02](./docs/no-overlap02.png)
+
+![no-overlap02](./docs/no-overlap02.png)
 
 <br><br>
 
