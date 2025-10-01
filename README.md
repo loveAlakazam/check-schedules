@@ -352,10 +352,11 @@ nvm use 22
 yarn server
 ```
 
-> API URL
+> API (HTTP)
 
-- 해결방안(1) API URL: `[POST] /api/solutions/one`
-- 해결방안(2) API URL: `[POST] /api/solutions/one`
+- 호스트주소: `localhost:3000`
+- 해결방안(1) API : `[POST] /api/solutions/one`
+- 해결방안(2) API : `[POST] /api/solutions/one`
 
 > Request Data (Content-Type: application/json)
 
