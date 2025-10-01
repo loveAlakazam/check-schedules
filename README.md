@@ -356,7 +356,7 @@ yarn server
 
 - 호스트주소: `localhost:3000`
 - 해결방안(1) API : `[POST] /api/solutions/one`
-- 해결방안(2) API : `[POST] /api/solutions/one`
+- 해결방안(2) API : `[POST] /api/solutions/two`
 
 > Request Data (Content-Type: application/json)
 
